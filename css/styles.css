@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,300;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kanit", sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 30px;
+    position: absolute;
+    width: 1280px;
+    height: 720px;
+    left: 0px;
+    top: 0px;
+}
+
+header{
+    width: 141.69px;
+    height: 33px;
+}
+
+header img{
+    position: absolute;
+    left: 44.47%;
+    right: 54.16%;
+    top: 23.31%;
+    bottom: 73.73%;
+}
+
+header h1{
+    position: absolute;
+    width: 119px;
+    height: 33px;
+    left: 591.84px;
+    top: 163px;
+    font-family: 'Kanit';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+    color: #F20F38;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px 20px;
+    gap: 40px;
+    width: 300px;
+    height: 331px;
+    background: #FEFEFE;
+    border: 1px solid #F20F38;
+    border-radius: 5px;
+}
+
+section h2{
+    width: 168px;
+    height: 31px;
+    font-family: 'Kanit';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 31px;
+    color: #023059;
+}
+
+.inputs-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    width: 260px;
+    height: 90px;
+}
+
+#e-mail{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 15px;
+    gap: 10px;
+    width: 260px;
+    height: 40px;
+    background: #EFEFEF;
+    border-radius: 2px;
+    border: none;
+}
+
+#e-mail::placeholder{
+    width: 34px;
+    height: 16px;
+    font-family: 'Kanit';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+    color: #023059;
+}
+
+#password{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px;
+    gap: 10px;
+    width: 260px;
+    height: 40px;
+    background: #EFEFEF;
+    border-radius: 2px;
+    border: none;
+}
+
+#password::placeholder{
+    width: 32px;
+    height: 16px;
+    font-family: 'Kanit';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+    color: #023059;
+}
+
+section button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 15px;
+    gap: 10px;
+    width: 260px;
+    height: 50px;
+    background: #F20F38;
+    border-radius: 2px;
+    color: #FEFEFE;
+    border: none;
+}
